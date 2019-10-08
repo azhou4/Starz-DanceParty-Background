@@ -1,4 +1,4 @@
-module.exports = function star(x, y, radius1, radius2, npoints) {
+module.exports = function drawStar(x, y, radius1, radius2, npoints) {
   let angle = TWO_PI / npoints;
   let halfAngle = angle / 2.0;
   beginShape();
